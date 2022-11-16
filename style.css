@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.nav {
+    background-color:darkslategrey;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline-block;
+    font-size: 3rem;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.menu-item:hover{
+    color: aquamarine;
+}

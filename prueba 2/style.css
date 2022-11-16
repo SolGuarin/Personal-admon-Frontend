@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    display: block;
+    justify-content: space-evenly;
+}
+/*div1*/
+.menu{
+    display: flex;
+    background-color: gray;
+    font-size: 3rem;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;   
+}
+.item1:hover{
+    color: aquamarine;
+}
+
+/*div2*/
+.balance{
+    display: flex;
+    background-color: darkgray;
+    font-size: 3rem;
+    color: white;
+    width: 100vw;
+    min-height: 10px;
+    justify-content: space-evenly;
+    align-items: center;  
+  
+}
+.valor1{
+    color: blue;
+}
+.valor2{
+    color: red;
+}
+/*section3*/
+.fecha{
+    display: flex;
+    background-color: grey;
+    font-size: 3rem;
+    color: white;
+    width: 100vw;
+    min-height: 10px;
+    justify-content: space-evenly;
+    align-items: center;  
+}
